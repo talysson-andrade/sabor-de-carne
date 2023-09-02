@@ -10,10 +10,20 @@ header {
 }
 
 nav {
+    display: flex;
     padding: 20px;
     margin: 10px;
 }
 
-nav a {
-    padding: 5px;
+div#center {
+    text-align: center;
+    flex-grow: 1;
+}
+
+div#center {
+    text-align: right;
+}
+
+div#left {
+    text-align: left;
 }

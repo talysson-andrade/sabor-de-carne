@@ -1,0 +1,23 @@
+
+div#cardapiotext{
+    margin: 5% 43%;
+    border-radius: 5px;
+    background-color: #66382A;
+    text-align: center;
+       
+}
+
+.tittletext{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div#cardapiobar{
+    text-align: center;
+    background-color: blue;
+
+}

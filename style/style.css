@@ -57,3 +57,7 @@ a {
     font-family: var(--sabordecarne);
     font-size: 2em;
 }
+
+div#cardapiotext{
+    margin: 5%;
+}

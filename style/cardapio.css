@@ -18,6 +18,23 @@ div#cardapiotext{
 
 div#cardapiobar{
     text-align: center;
-    background-color: blue;
+    
 
+}
+.button{
+    padding-right: 4%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.button:focus{
+    border: none;
+    outline: none;
+}
+.button:hover{
+    font-weight:bolder;
+}
+
+div#imageprato{
+    margin: 10% 30%;
 }

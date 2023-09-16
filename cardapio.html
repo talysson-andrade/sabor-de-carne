@@ -4,35 +4,53 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/cardapio.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <title>Sabor de Carne</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Cardápio</a>
-            <a href="#">Reserva</a>
-            <a href="#">Sabor de Carne</a>
-            <a href="#" class="logo">Contatos</a>
+        <nav class="navbar">
+            <div id="navleft">
+                <a href="#" class="aleft">Home</a>
+                <a href="#" class="aleft">Cardápio</a>
+                <a href="#">Reserva</a>
+            </div>
+            <div id="navcenter">
+                <a href="#" class="acenter">Sabor de Carne</a></div>
+            </div>
+            <div id="navright">
+                <a href="#">Contatos</a>
+            </div>    
         </nav>
     </header>
     <main>
-        <div> <!-- Área do texto Cardápio, ,,  topo da tela  -->
-            <h2>Cardápio</h2> 
+        <div id="cardapiotext"> <!-- Área do texto Cardápio, ,,  topo da tela  -->
+            <h2 class="tittletext">Cardápio</h2> 
         </div>
-        <div> <!--Barra de Botões do cardápio-->
-            <button class="button-pratos">Pratos</button>
-            <button class="button-bebidas">Bebidas</button>
-            <button class="button-sobremesas">Sobremesas</button>
+        <div id="cardapiobar"> <!--Barra de Botões do cardápio-->
+            <button class="button pratos">Pratos</button>
+            <button class="button bebidas">Bebidas</button>
+            <button class="button sobremesas">Sobremesas</button>
         </div> 
-        <div> <!--Roll do cardápio -->
-            <div class="image-prato"> <!--Imagem do Prato-->
-                <img src="#" alt="#">
-            </div>
-            <div class="info-prato"> <!--Descrição do prato-->
-                <h5>"Título prato"</h5>
-                <p>"Descrição do Prato"</p>
-                <p>"Valor"</p>
+        <div id="resp-table">
+            <div id="resp-table-body">
+                <div class="resp-table-row"> 
+                    <div class="table-body-cell">
+                        <img src="C:\Users\ALUNO.ESTACIOACAD\Desktop\Projeto Site\projeto-site\images\teste.webp" alt="teste" style="width: 100%;">
+                    </div>
+                    <div class="table-body-cell">
+                        <div class = "info">
+                            <div id="info-title"><h5>X-Tudo</h5></div>                          
+                            <div id="info-desc"><p>220g de Camarões servidos sobre cremoso arroz com ervilhas e presunto, envolvido com molho branco. Gratinado com queijos muçarela e parmesão. Acompanha batata palha.</p></div>
+                            <div id="info-value"><p>R$ 999,99</p></div> 
+                        </div>
+                    </div>
+
+                </div>     
+                
+                
             </div>
         </div>
 

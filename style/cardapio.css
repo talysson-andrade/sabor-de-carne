@@ -1,0 +1,89 @@
+
+div#cardapiotext{
+    margin: 5% 43%;
+    border-radius: 5px;
+    background-color: #66382A;
+    text-align: center;
+       
+}
+
+.tittletext{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+div#cardapiobar{
+    text-align: center;
+    
+
+}
+.button{
+    padding-right: 4%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+}
+.button:focus{
+    border: none;
+    outline: none;
+}
+.button:hover{
+    font-weight:bolder;
+}
+
+#resp-table {
+    padding-top: 30px;
+    width: 50%;
+    display: table;
+    margin-left: 25%;
+    text-align: center;
+}
+#resp-table-body{
+    margin-left: 10%;   
+    display: table-row-group;
+    text-align: center;
+    
+}
+.table-body-cell{
+    display: table-cell;       
+    line-height: 30px;
+    vertical-align: top;     
+    width: 12%; 
+    max-width: 12%;  
+    max-height: 10%;
+    background-color: aqua;
+}
+
+#info{
+    padding: 15% 15%;
+    height: 100%;
+    width: 100%;
+}
+
+#info-title{
+    padding-bottom: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+#info-desc{
+    padding: 5px 0px 5px 10px;
+    text-align: justify;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    background-color: darkgray;
+    
+}
+#info-value{
+    text-align: right;
+    padding-top: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    background-color: lightgreen;
+}

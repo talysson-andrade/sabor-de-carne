@@ -9,8 +9,11 @@
 }
 
 :root {
-
-    --cor1: Black;
+    --cor1: #667302;
+    --cor2: #F25C05;
+    --cor3: #F2D8C9;
+    --cor4: #8C2703;
+    --cor5: #0D0D0D;
 
     --sabordecarne: 'Orbitron', sans-serif;
     --titulo: 'Pacifico', cursive;
@@ -19,7 +22,7 @@
 
 header {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
-    background-color: var(--cor1);
+    background-color: var(--cor5);
 }
 
 .navbar {
@@ -36,19 +39,19 @@ header {
 }
 
 .left a {
-    padding: 11px;
+    padding: 15px;
     font-family: var(--titulo);
 }
 
 .center {
     flex: 1;
-    text-align: center;
 }
 
 .center .logo-header {
+    display: block;
     text-shadow: 8px 8px 12px rgba(0, 0, 0, 0.363);
     width: 50%;
-    height: 30%;
+    margin: auto;
 }
 
 .right {
@@ -57,19 +60,20 @@ header {
 }
 
 .right a {
-    padding: 11px;
+    padding: 15px;
     font-family: var(--titulo);
 }
 
-a {
+.right-a, .left-a {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
     text-decoration: none;
     position: relative;
     color: white;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
 }
 
-a::before{
+.right-a::before, .left-a::before{
     content: "";
     position: absolute;
     bottom: 0;
@@ -80,6 +84,6 @@ a::before{
     transition: width 0.3s;
 }
 
-a:hover::before {
+.right-a:hover::before, .left-a:hover::before {
     width: 100%;
 }

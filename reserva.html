@@ -1,25 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
-    <title>Sabor da Carne</title>
+    <title>Hamburgueria</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/reserva.css">
+    </head>
 
-</head>
 <body>
-    <header>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Cardápio</a>
-            <a href="#">Reserva</a>
-            <a href="#">Sabor de Carne</a>
-            <a href="#" class="logo">Contatos</a>
+    <header>  
+        <nav class="navbar">
+            <div class="left">
+                <a href="#">Home</a>
+                <a href="#">Cardápio</a>
+                <a href="#">Reserva</a>
+            </div>
+            <div class="center">
+                <a href="#"><img class="logo-header" src="images/FOTO.PNG" alt="logo"></a>
+            </div>
+            <div class="right">
+                <a href="#">Contatos</a>
+            </div>    
         </nav>
+
+        
+        
     </header>
-    <main><h1>Reserva</main></h1>
+    <h2>Reserva</h2>
 
+    <main>
+        <form id="reservation-form">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
 
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="date">Data da Reserva:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="guests">Número de Convidados:</label>
+            <input type="number" class="guests" name="guests" min="1" required>
+
+            <label for="comments">Observações</label>
+            <input type="text"  id="comments" name="comments" >
+
+            <button type="submit">Reservar</button>
+        </form>
+    </main>
+
+    
 </body>
 </html>

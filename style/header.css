@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #667302;
+    --cor2: #F25C05;
+    --cor3: #F2D8C9;
+    --cor4: #8C2703;
+    --cor5: #0D0D0D;
+
+    --corpo: 'Exo 2', sans-serif;
+    --titulo: 'Pacifico', cursive;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.356);
+    background-color: var(--cor5);
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.left {
+    flex: 1;
+    text-align: left;
+}
+
+.left a {
+    padding: 15px;
+    font-family: var(--titulo);
+}
+
+.center {
+    flex: 1;
+}
+
+.center .logo-header {
+    display: block;
+    text-shadow: 8px 8px 12px rgba(0, 0, 0, 0.363);
+    width: 50%;
+    margin: auto;
+}
+
+.right {
+    flex: 1;
+    text-align: right;
+}
+
+.right a {
+    padding: 15px;
+    font-family: var(--titulo);
+}
+
+.right-a, .left-a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-decoration: none;
+    position: relative;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.363);
+}
+
+.right-a::before, .left-a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: white;
+    transition: width 0.3s;
+}
+
+.right-a:hover::before, .left-a:hover::before {
+    width: 100%;
+}

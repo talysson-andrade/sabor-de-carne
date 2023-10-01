@@ -6,3 +6,18 @@ inputtelefone.addEventListener('input',function (e){
 
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const btnReservar = document.getElementById('btnReservar');
+    const popup = document.getElementById('popup');
+    const fecharPopup = document.getElementById('fecharPopup');
+
+    btnReservar.addEventListener('click', function(event) {
+        event.preventDefault();
+        popup.style.display = 'block';
+    });
+
+    fecharPopup.addEventListener('click', function() {
+        popup.style.display = 'none';
+    });
+});
+

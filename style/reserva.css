@@ -69,3 +69,24 @@ button:hover {
 .logo img{
     width: 100px;
 }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.popup p {
+    margin: 0;
+}
+
+.popup button {
+    margin-top: 10px;
+}

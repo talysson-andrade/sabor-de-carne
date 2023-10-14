@@ -21,3 +21,16 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+var links = document.querySelectorAll('a');
+
+links.foreach(function(link) {
+    link.addEventListener('click', function(event) {
+        event.preventDefault();
+
+        var destino = link.getAttribute('href');
+
+        window.location.href = destino;
+    });
+
+});
+    

@@ -35,55 +35,34 @@ div#cardapiobar{
     font-weight:bolder;
 }
 
-#resp-table {
-    padding-top: 30px;
-    width: 50%;
-    display: table;
-    margin-left: 25%;
-    text-align: center;
+table{
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+    height: auto;
 }
-#resp-table-body{
-    margin-left: 10%;   
-    display: table-row-group;
-    text-align: center;
-    
+table th, table td{
+    border: none;
+    padding: 8px;
+    text-align: left;
+    margin: 5px 0
 }
-.table-body-cell{
-    display: table-cell;       
-    line-height: 30px;
-    vertical-align: top;     
-    width: 12%; 
-    max-width: 12%;  
-    max-height: 10%;
-    background-color: aqua;
+th{
+    background-color: #f0f0f0;
 }
-
-#info{
-    padding: 15% 15%;
-    height: 100%;
-    width: 100%;
-}
-
-#info-title{
-    padding-bottom: 15px;
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 35px;
+td h2{
     font-weight: bold;
-    background-color: lightseagreen;
 }
-#info-desc{
-    padding: 5px 0px 5px 10px;
-    text-align: justify;    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 13px;
-    background-color: darkgray;
-    
+td p.descricao{
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin: 0;
 }
-#info-value{
+td p.valor{
     text-align: right;
-    padding-top: 14px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 25px;
-    background-color: lightgreen;
+    font-weight: bold;
+}
+td img {
+    max-height: 300px;
 }

@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/cardapio.css">
-    <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/cardapio.css">
+    <link rel="stylesheet" href="style/footer.css">
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     
     <title>Sabor de Carne</title>
@@ -28,34 +28,43 @@
         </nav>
     </header>
     <main>
-        <script src="script/cardapio.js"></script>
         <div id="cardapiotext"> <!-- Área do texto Cardápio, ,,  topo da tela  -->
             <h2 class="tittletext">Cardápio</h2> 
         </div>
         <div id="cardapiobar"> <!--Barra de Botões do cardápio-->
-            <button class="button pratos">Pratos</button>
-            <button class="button bebidas">Bebidas</button>
-            <button class="button sobremesas">Sobremesas</button>
+            <button id="btnLanches">Lanches</button>
+            <button id="btnBebidas">Bebidas</button>
+            <button id="btnSobremesas">Sobremesas</button>
         </div> 
-        <div id="resp-table">
-            <div id="resp-table-body">
-                <div class="resp-table-row"> 
-                    <div class="table-body-cell">
-                        <img src="C:\Users\ALUNO.ESTACIOACAD\Desktop\Projeto Site\projeto-site\images\teste.webp" alt="teste" style="width: 100%;">
-                    </div>
-                    <div class="table-body-cell">
-                        <div class = "info">
-                            <div id="info-title"><h5>X-Tudo</h5></div>                          
-                            <div id="info-desc"><p>220g de Camarões servidos sobre cremoso arroz com ervilhas e presunto, envolvido com molho branco. Gratinado com queijos muçarela e parmesão. Acompanha batata palha.</p></div>
-                            <div id="info-value"><p>R$ 999,99</p></div> 
-                        </div>
-                    </div>
-
-                </div>                    
-            </div>
-        </div>
+        <table border="1" id="tabelaProdutos">
+           
+            <tbody>
+            </tbody>
+        </table>
+        <script type="text/javascript" src="/script/cardapio.js"></script>
 
     </main>
-    <footer></footer>
+    <footer>
+        <div class="footer">
+            <div class="logo">
+                <a href="#"><img class="logo-footer" src="images/logo-sabordecarne.png" alt="logo"></a>
+            </div>
+            <div class="informations-footer">
+                <ul class="ul-informations-footer">
+                    <li><a href="#">Quem somos</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="/cardapio.html">Cardápio</a></li>
+                    <li><a href="#">Reserva</a></li>
+                </ul>
+            </div>
+            <div class="redes-sociais">
+                <ul class="ul-redes-sociais">
+                    <li><a href="#"><img src="images/instagram-logo.jpg" alt="instagram-logo"></a></li>
+                    <li><a href="#"><img src="images/whatsapp-logo.jpg" alt="whatsapp-logo"></a></li>
+                    <li><a href="#"><img src="images/linkedin-logo.png" alt="linkedin-logo"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

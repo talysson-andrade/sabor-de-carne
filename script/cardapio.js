@@ -1,36 +1,36 @@
 var produtos = [
     {
-        imagem: '/images/Lanche-01.jpeg',
+        imagem: 'images/Lanche-01.jpeg',
         nome: 'Hambúguer Bom',
         descricao: 'Hambúrguer bom, gostoso que só',
         preco: 'R$ 19,90'
     },
     {
-        imagem: '/images/Lanche-02.jpeg',
+        imagem: 'images/Lanche-02.jpeg',
         nome: 'Hambúguer Médio',
         descricao: 'Hamburguer médio, mais ou menos gostoso',
         preco: 'R$ 14,99'
     },
     {
-        imagem: '/images/Lanche-03.jpeg',
+        imagem: 'images/Lanche-03.jpeg',
         nome: 'Hambúguer Médio',
         descricao: 'Hamburguer médio, mais ou menos gostoso',
         preco: 'R$ 14,99'
     },
     {
-        imagem: '/images/Lanche-04.jpeg',
+        imagem: 'images/Lanche-04.jpeg',
         nome: 'Hambúguer Médio',
         descricao: 'Hamburguer médio, mais ou menos gostoso',
         preco: 'R$ 14,99'
     },
     {
-        imagem: '/images/Lanche-05.jpeg',
+        imagem: 'images/Lanche-05.jpeg',
         nome: 'Hambúguer Médio',
         descricao: 'Hamburguer médio, mais ou menos gostoso',
         preco: 'R$ 14,99'
     },
     {
-        imagem: '/images/milkshake.jpeg',
+        imagem: 'images/milkshake.jpeg',
         nome: 'Hambúguer Médio',
         descricao: 'Hamburguer médio, mais ou menos gostoso',
         preco: 'R$ 14,99'

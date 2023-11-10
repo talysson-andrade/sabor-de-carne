@@ -47,6 +47,11 @@ footer {
     margin-left: 20px;
 }
 
+.logo-footer {
+    height: 70px;
+    width: 300px;
+}
+
 .ul-informations-footer {
     columns: 2;
     list-style: none;

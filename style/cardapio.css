@@ -18,9 +18,8 @@ div#cardapiotext{
 
 div#cardapiobar{
     text-align: center;
-    
-
 }
+
 .button{
     padding-right: 4%;
     border: none;
@@ -55,8 +54,8 @@ td h2{
 }
 td p.descricao{
     color: #777;
-    font-size: 14px;
-    text-align: center;
+    font-size: 28px;
+    text-align: left;
     margin: 0;
 }
 td p.valor{

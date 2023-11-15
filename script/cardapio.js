@@ -1,3 +1,21 @@
+var btnBebidas = document.getElementById("btnBebidas");
+var btnLanches = document.getElementById("btnLanches");
+var btnSobremesas = document.getElementById("btnSobremesas");
+
+var tabelaLanches = document.getElementById("tabelaLanches");
+var tabelaBebidas = document.getElementById("tabelaBebidas");
+var tabelaSobremesas = document.getElementById("tabelaSobremesas");
+
+btnLanches.addEventListener("click", function(){
+    tabelaLanches.scrollIntoView({ behavior: "smooth"});
+});
+btnBebidas.addEventListener("click", function(){
+    tabelaBebidas.scrollIntoView({ behavior: "smooth"});
+});
+btnSobremesas.addEventListener("click", function(){
+    tabelaSobremesas.scrollIntoView({ behavior: "smooth"});
+});
+
 var lanches = [
     
     {
@@ -14,7 +32,7 @@ var lanches = [
     },
     {
         imagem: 'images/Lanche-02.jpg',
-        nome: 'Hambúguer Gourmet de Quiejo',
+        nome: 'Hambúguer Gourmet de Queijo',
         descricao: 'Um suculento hambúrguer de carne 100% bovina grelhado no ponto certo, servido em um pão macio de brioche. Ele é acompanhado de alface fresca, tomate maduro e cebola roxa, e regado com nosso molho especial de maionese e ketchup. Uma experiência autêntica que nunca sai de moda',
         preco: 'R$ 25,00'
     },
@@ -53,11 +71,11 @@ var lanches = [
 var bebidas = [
 
     {   
-        imagem: 'images/refrigerante.jpg',
-        nome: 'Refrigerante Lata 350ML',
-        descricao: '',
-        preco: 'R$ 10,00'
-        },
+    imagem: 'images/refrigerante.jpg',
+    nome: 'Refrigerante Lata 350ML',
+    descricao: '',
+    preco: 'R$ 10,00'
+    },
 
     
     {   
@@ -75,14 +93,27 @@ var bebidas = [
     },
 
     {
-        imagem: 'images/sucolimao.jpg',
-        nome: 'Suco de Limão',
-        descricao: 'Feito com limões frescos espremidos na hora, este suco é a escolha perfeita para quem aprecia sabores intensos e acentuados',
-        preco: 'R$ 14,99'
+    imagem: 'images/sucolimao.jpg',
+    nome: 'Suco de Limão',
+    descricao: 'Feito com limões frescos espremidos na hora, este suco é a escolha perfeita para quem aprecia sabores intensos e acentuados',
+    preco: 'R$ 14,99'
+    },
+
+    {
+        imagem: 'images/agua.jpg',
+        nome: 'Água Sem Gás',
+        descricao: 'Água mineral sem gás, 500Ml',
+        preco: 'R$ 8,00'
     },
     
+    {
+        imagem: 'images/agua.jpg',
+        nome: 'Água Com Gás',
+        descricao: 'Água mineral com gás, 500Ml',
+        preco: 'R$ 8,00'
+    }
     
-
+    
 ]
 
 
@@ -105,20 +136,6 @@ var sobremesas= [ {
     nome: 'Milkshake de Baunilha',
     descricao: 'O Milkshake de Baunilha é a epítome da simplicidade e elegância. Feito com sorvete de baunilha e leite, possui um sabor suave e delicado. É a escolha perfeita para aqueles que apreciam a doçura clássica da baunilha.',
     preco: 'R$ 20,00'
-},
-
-{
-    imagem: 'images/agua.jpg',
-    nome: 'Água Sem Gás',
-    descricao: 'Água mineral sem gás, 500Ml',
-    preco: 'R$ 8,00'
-},
-
-{
-    imagem: 'images/agua.jpg',
-    nome: 'Água Com Gás',
-    descricao: 'Água mineral com gás, 500Ml',
-    preco: 'R$ 8,00'
 }
 
 ]

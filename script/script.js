@@ -6,19 +6,25 @@ inputtelefone.addEventListener('input',function (e){
 
 });
 
-document.addEventListener('DOMContentLoaded', function() {
-    const btnReservar = document.getElementById('submit');
-    const popup = document.getElementById('popup');
-    const fecharPopup = document.getElementById('fecharPopup');
+document.addEventListener('DOMContentLoaded', function () {
+  const btnReservar = document.getElementById('btnReservar');
+  const popup = document.getElementById('popup');
+  const fecharPopup = document.getElementById('fecharPopup');
 
-    btnReservar.addEventListener('click', function(event) {
-        event.preventDefault();
-        popup.style.display = 'block';
-    });
+  btnReservar.addEventListener('click', function (event) {
+      event.preventDefault();
+      popup.style.display = 'block';
+  });
 
-    fecharPopup.addEventListener('click', function() {
-        popup.style.display = 'none';
-    });
+  fecharPopup.addEventListener('click', function () {
+      popup.style.display = 'none';
+  });
+
+  window.addEventListener('click', function (event) {
+      if (event.target === popup) {
+          popup.style.display = 'none';
+      }
+  });
 });
 
 document.addEventListener("DOMContentLoaded", function() {

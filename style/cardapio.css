@@ -4,8 +4,7 @@ header{
 }
 
 .tittletext{
-    color: #502314;
-    
+    color: #502314;   
     font-size: 48px;
     font-style: normal;
     font-weight: 500px;
@@ -19,7 +18,7 @@ div#cardapiobar{
 
 
 table{
-    margin: 20px auto;
+    margin: 0 auto 20px auto;
     border-collapse: collapse;
     width: 80%;
     height: auto;
@@ -33,6 +32,16 @@ table th, table td{
     text-align: left;
     margin: 5px 0
     
+}
+
+h3{
+    padding-left: 135px;
+    color: #502314;
+    font-weight: bold;
+    font-size: 23px; 
+    vertical-align: text-bottom;
+    text-align: left;
+   
 }
 
 td h2 {
@@ -69,6 +78,7 @@ td img {
     cursor: pointer;
     text-decoration: none;
     position: relative; 
+    margin-bottom: 30px;
 }
 .btnScroll:active {
     transform: translateY(2px);
